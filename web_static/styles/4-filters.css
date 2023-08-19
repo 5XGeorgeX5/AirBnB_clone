@@ -19,6 +19,7 @@
   border-radius: 4px;
   right: 30px;
   position: absolute;
+  cursor: pointer;
 }
 
 .filters button:hover {
