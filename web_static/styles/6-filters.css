@@ -59,13 +59,23 @@
   transition: visibility 0s, opacity 0.25s linear;
 }
 
+.locations .popover {
+  padding-top: 10px;
+}
+
 .popover ul {
   list-style: none;
   padding-left: 10%;
 }
 
+.popover li {
+  line-height: 1.5;
+}
+
 .popover h2 {
   font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: -4px;
 }
 
 .locations:hover > .popover,
