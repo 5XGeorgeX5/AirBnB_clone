@@ -52,16 +52,11 @@
   border: 1px solid #dddddd;
   border-radius: 4px;
   list-style: none;
-  padding-bottom: 10%;
-  padding-top: 10%;
-  padding-left: 10%;
+  padding: 10%;
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s, opacity 0.25s linear;
-}
-
-.popover:hover {
   cursor: pointer;
+  transition: visibility 0s, opacity 0.25s linear;
 }
 
 .popover ul {
