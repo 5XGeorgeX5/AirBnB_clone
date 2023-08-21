@@ -91,6 +91,10 @@
   margin: 10px auto;
 }
 
+.user span {
+  font-weight: bold;
+}
+
 .places .amenities {
   margin-top: 40px;
 }

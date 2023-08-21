@@ -22,10 +22,10 @@
   padding-left: 1%;
 }
 
-.places h2 {
-  margin: 0;
+.places article > h2 {
+  margin: 0 100px;
   text-align: center;
-  flex-direction: column;
+  justify-content: center;
   display: flex;
   font-size: 30px;
   padding-bottom: 60px;
@@ -83,4 +83,8 @@
 
 .user {
   margin: 10px auto;
+}
+
+.user span {
+  font-weight: bold;
 }
